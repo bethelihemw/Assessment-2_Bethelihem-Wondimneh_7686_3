@@ -1,0 +1,210 @@
+.container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+*{
+    margin: 0;
+    font-family: arial;
+}
+.contain{
+    background-image: linear-gradient(to top right, purple,rgb(238, 100, 123),purple);
+}
+b{
+    color: black;
+}
+.header{
+    margin-left: 21%;
+    padding-top: 29px;
+} 
+.section1 , .section2,.footer ,.footerlist p{
+    margin: 22px 21%;
+    display: flex;
+    column-gap: 30px;
+
+}
+.foo1,.foot2,.foot3{
+    margin: 50px 0px 20px;
+}
+.busi p{
+    font-size: 13px;
+    margin-left: 230px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+/* list */
+.lists ul {
+    list-style: none;
+    padding: 0;       
+    margin: 0;      
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+.lists li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom, rgb(142, 238, 142),rgb(44, 46, 43));
+    border-radius: 5px;
+}
+.lists li:hover{
+    background-image: linear-gradient(to bottom,purple,black,purple);
+    /* background-color: purple; */
+}
+#home{
+    background-image: linear-gradient(to bottom,purple,black,purple);
+}
+h2{
+    color: purple;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(68, 66, 66);
+    margin-bottom: 1px;
+}
+input{
+    width: 400px;
+    height: 0px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid rgb(168, 168, 168);
+}
+.message{
+    height: 70px;
+    margin-bottom: 20px;
+}
+.contact p{
+    margin: 20px 0px;
+    line-height: 2.2;
+    font-size: 12px;
+    width: 550px;
+}
+button{
+    padding: 5px 25px;
+    margin-bottom: 100px;
+}
+.gray{
+    padding: 10px 0px;
+    color: gray;
+}
+.right{
+    list-style: none;
+}
+.sidebar ul {
+    padding: 0;       
+    margin: 0;        
+}
+.sidebar a{
+    line-height: 2.5;
+    color: rgb(83, 83, 83);
+    font-size: 13px;
+}
+.sidebar{
+    line-height: 2;
+    display: block;
+    margin-bottom: 20px;
+    justify-content: start;
+    align-items: center;
+}
+.sidebar li,.sponsor li{
+    list-style: none;  
+}
+.email {
+    margin: 20p;
+}
+.comment{
+    color: rgb(21, 224, 21);
+}
+.inp{
+    display: block;
+}
+.inp p{
+    line-height: 3.8;
+    font-size: 13px;
+}
+.info{
+    margin-left: 33%;
+}
+input:hover{
+    border: 1px solid green;
+}
+input:focus {
+    border-color: green;
+}
+.sponsor p{
+    line-height: 2.1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.foot2 p{
+    color: white;
+    padding-left: 10px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.footer h3{
+    color: purple;
+}
+footer{
+    background-image: linear-gradient(to top right, purple,rgb(238, 100, 123),purple);
+}
+.foot1{
+    margin-top: 50px;
+    width: 30%;
+}
+.foot2{
+    font-size: 13px;
+    max-width: 30%;
+}
+.foot3{
+    padding: 10px 100px;
+    max-width: 30%;
+    font-size: 13px;
+}
+.foot3 p{
+    color: white;
+    width: 270px;
+}
+.aside{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.layout{
+    columns: 3;
+    column-gap: 5px;
+}
+.deep p{
+    color: white;
+}
+.deep{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    background-image: linear-gradient(to top right, purple,rgb(238, 100, 123),purple);
+ }
+.footerlist ul {
+    display: flex; 
+    margin-left: 200px;
+}
+.footerlist li{
+    width: 50px;
+    list-style: none;
+    padding: 5px 10px;  
+    text-align: center;
+} 
